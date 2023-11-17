@@ -41,4 +41,4 @@ body:
   - type: markdown
     attributes:
       value: |
-        # After filing this bug please attach the logs from the game. You can download the log to USB in System Manager > Manage Apps > AppName > Manage Logs > Copy Logs to USB.
+        # After filing this bug please attach the logs from the game.\nYou can download the log to USB in System Manager > Manage Apps > AppName > Manage Logs > Copy Logs to USB.
