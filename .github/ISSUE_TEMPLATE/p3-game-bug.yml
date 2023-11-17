@@ -1,0 +1,46 @@
+name: P3 Game Bug Report
+description: File an issue with an Ian Harrower Games P3 game
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        I am sorry you are encountering an issue. Thanks for taking the time to fill out this bug report!
+  - type: dropdown
+    id: game
+    attributes:
+      label: Game
+      description: Which game has the issue?
+      options:
+        - Bird Watcher (Default)
+        - Double Super Jackpot
+      default: 0
+    validations:
+      required: true
+  - type: dropdown
+    id: machine type
+    attributes:
+      label: machine type
+      description: What type of P3 do you have?
+      options:
+        - Motorized Wall/Scoop assembly (2022 and later) (Default)
+        - Coil Wall/Scoop assembly (pre-20222)
+      default: 0
+    validations:
+      required: true
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: Also tell us, what did you expect to happen?
+      placeholder: Tell us what you see!
+      value: "A bug happened!"
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Relevant log output
+      description: Please Attach the logs from the game. You can download the log to USB in System Manager > Manage Apps > AppName > Manage Logs > Copy Logs to USB.
+      render: shell
