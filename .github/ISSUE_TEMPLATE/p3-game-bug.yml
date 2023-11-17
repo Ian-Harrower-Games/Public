@@ -19,7 +19,7 @@ body:
     validations:
       required: true
   - type: dropdown
-    id: machine type
+    id: machineType
     attributes:
       label: machine type
       description: What type of P3 do you have?
@@ -30,7 +30,7 @@ body:
     validations:
       required: true
   - type: textarea
-    id: what-happened
+    id: whatHappened
     attributes:
       label: What happened?
       description: Also tell us, what did you expect to happen?
