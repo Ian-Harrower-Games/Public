@@ -38,9 +38,8 @@ body:
       value: "A bug happened!"
     validations:
       required: true
-  - type: textarea
+  - type: markdown
     id: logs
     attributes:
-      label: Relevant log output
-      description: Please Attach the logs from the game. You can download the log to USB in System Manager > Manage Apps > AppName > Manage Logs > Copy Logs to USB.
-      render: shell
+      value: |
+      After filing this bug please attach the logs from the game. You can download the log to USB in System Manager > Manage Apps > AppName > Manage Logs > Copy Logs to USB.
