@@ -41,5 +41,5 @@ body:
   - type: markdown
     attributes:
       value: |
-        # After filing this bug please attach the logs from the game.
+        # After filing this bug please email the log from the game to ianharrowergames@gmail.com
         You can download the log to USB in System Manager > Manage Apps > AppName > Manage Logs > Copy Logs to USB.
